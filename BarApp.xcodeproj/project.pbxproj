@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1838219E1EBB2CF8000F39E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838219D1EBB2CF8000F39E9 /* AppDelegate.swift */; };
+		183821A01EBB2CF8000F39E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838219F1EBB2CF8000F39E9 /* ViewController.swift */; };
+		183821A31EBB2CF8000F39E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183821A11EBB2CF8000F39E9 /* Main.storyboard */; };
+		183821A61EBB2CF8000F39E9 /* BarApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 183821A41EBB2CF8000F39E9 /* BarApp.xcdatamodeld */; };
+		183821A81EBB2CF8000F39E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183821A71EBB2CF8000F39E9 /* Assets.xcassets */; };
+		183821AB1EBB2CF8000F39E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183821A91EBB2CF8000F39E9 /* LaunchScreen.storyboard */; };
+		183821B61EBB2CF9000F39E9 /* BarAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183821B51EBB2CF9000F39E9 /* BarAppTests.swift */; };
+		183821C11EBB2CF9000F39E9 /* BarAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183821C01EBB2CF9000F39E9 /* BarAppUITests.swift */; };
+		183821D11EBB2E28000F39E9 /* KYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183821CE1EBB2E28000F39E9 /* KYDrawerController.swift */; };
+		183821D21EBB2E28000F39E9 /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183821CF1EBB2E28000F39E9 /* KYEmbedDrawerControllerSegue.swift */; };
+		183821D31EBB2E28000F39E9 /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183821D01EBB2E28000F39E9 /* KYEmbedMainControllerSegue.swift */; };
+		183821D91EBB2EB8000F39E9 /* ACFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183821D51EBB2EB8000F39E9 /* ACFloatingTextfield.swift */; };
+		183821DC1EBB2EB8000F39E9 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183821D81EBB2EB8000F39E9 /* SignUpVC.swift */; };
+		183821E71EBB527C000F39E9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183821E51EBB527C000F39E9 /* MainViewController.swift */; };
+		183E69321EC2E9BD009DD72A /* PurchaseStockVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E69311EC2E9BD009DD72A /* PurchaseStockVC.swift */; };
+		183E69341EC2EDD7009DD72A /* DefaultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E69331EC2EDD7009DD72A /* DefaultVC.swift */; };
+		183E69361EC32BAD009DD72A /* PurchaseStockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E69351EC32BAD009DD72A /* PurchaseStockCell.swift */; };
+		18723B2F1EBC6BF900E5EF7B /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18723B2E1EBC6BF900E5EF7B /* DrawerViewController.swift */; };
+		18723B311EBC7A3E00E5EF7B /* DrawerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18723B301EBC7A3D00E5EF7B /* DrawerCell.swift */; };
+		18B9C44A1EBC92B400B29937 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B9C4491EBC92B300B29937 /* ProfileVC.swift */; };
+		18B9C44C1EBC92D100B29937 /* ProfileEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B9C44B1EBC92D100B29937 /* ProfileEditVC.swift */; };
+		18B9C44E1EBC92E300B29937 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B9C44D1EBC92E300B29937 /* ChangePasswordVC.swift */; };
+		18B9C4501EBC9CA400B29937 /* UserManagementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B9C44F1EBC9CA400B29937 /* UserManagementVC.swift */; };
+		18B9C4521EBC9CB700B29937 /* UserDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B9C4511EBC9CB700B29937 /* UserDetailsVC.swift */; };
+		18B9C4541EBC9CD400B29937 /* settingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B9C4531EBC9CD400B29937 /* settingsVC.swift */; };
+		18B9C4561EBC9CE700B29937 /* EmailManagementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B9C4551EBC9CE700B29937 /* EmailManagementVC.swift */; };
+		18B9C4581EBC9D2300B29937 /* AddEmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B9C4571EBC9D2300B29937 /* AddEmailVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		183821B21EBB2CF9000F39E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183821921EBB2CF7000F39E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183821991EBB2CF7000F39E9;
+			remoteInfo = BarApp;
+		};
+		183821BD1EBB2CF9000F39E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183821921EBB2CF7000F39E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183821991EBB2CF7000F39E9;
+			remoteInfo = BarApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1838219A1EBB2CF8000F39E9 /* BarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1838219D1EBB2CF8000F39E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1838219F1EBB2CF8000F39E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		183821A21EBB2CF8000F39E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		183821A51EBB2CF8000F39E9 /* BarApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BarApp.xcdatamodel; sourceTree = "<group>"; };
+		183821A71EBB2CF8000F39E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		183821AA1EBB2CF8000F39E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		183821AC1EBB2CF8000F39E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183821B11EBB2CF9000F39E9 /* BarAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		183821B51EBB2CF9000F39E9 /* BarAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarAppTests.swift; sourceTree = "<group>"; };
+		183821B71EBB2CF9000F39E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183821BC1EBB2CF9000F39E9 /* BarAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		183821C01EBB2CF9000F39E9 /* BarAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarAppUITests.swift; sourceTree = "<group>"; };
+		183821C21EBB2CF9000F39E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183821CE1EBB2E28000F39E9 /* KYDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYDrawerController.swift; sourceTree = "<group>"; };
+		183821CF1EBB2E28000F39E9 /* KYEmbedDrawerControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedDrawerControllerSegue.swift; sourceTree = "<group>"; };
+		183821D01EBB2E28000F39E9 /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
+		183821D51EBB2EB8000F39E9 /* ACFloatingTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACFloatingTextfield.swift; sourceTree = "<group>"; };
+		183821D81EBB2EB8000F39E9 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		183821DD1EBB2F6B000F39E9 /* BarApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BarApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		183821E51EBB527C000F39E9 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		183E69311EC2E9BD009DD72A /* PurchaseStockVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseStockVC.swift; sourceTree = "<group>"; };
+		183E69331EC2EDD7009DD72A /* DefaultVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultVC.swift; sourceTree = "<group>"; };
+		183E69351EC32BAD009DD72A /* PurchaseStockCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseStockCell.swift; sourceTree = "<group>"; };
+		18723B2E1EBC6BF900E5EF7B /* DrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		18723B301EBC7A3D00E5EF7B /* DrawerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerCell.swift; sourceTree = "<group>"; };
+		18B9C4491EBC92B300B29937 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		18B9C44B1EBC92D100B29937 /* ProfileEditVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileEditVC.swift; sourceTree = "<group>"; };
+		18B9C44D1EBC92E300B29937 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		18B9C44F1EBC9CA400B29937 /* UserManagementVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManagementVC.swift; sourceTree = "<group>"; };
+		18B9C4511EBC9CB700B29937 /* UserDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsVC.swift; sourceTree = "<group>"; };
+		18B9C4531EBC9CD400B29937 /* settingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsVC.swift; sourceTree = "<group>"; };
+		18B9C4551EBC9CE700B29937 /* EmailManagementVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailManagementVC.swift; sourceTree = "<group>"; };
+		18B9C4571EBC9D2300B29937 /* AddEmailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEmailVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183821971EBB2CF7000F39E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183821AE1EBB2CF9000F39E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183821B91EBB2CF9000F39E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183821911EBB2CF6000F39E9 = {
+			isa = PBXGroup;
+			children = (
+				1838219C1EBB2CF8000F39E9 /* BarApp */,
+				183821B41EBB2CF9000F39E9 /* BarAppTests */,
+				183821BF1EBB2CF9000F39E9 /* BarAppUITests */,
+				1838219B1EBB2CF8000F39E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1838219B1EBB2CF8000F39E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1838219A1EBB2CF8000F39E9 /* BarApp.app */,
+				183821B11EBB2CF9000F39E9 /* BarAppTests.xctest */,
+				183821BC1EBB2CF9000F39E9 /* BarAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1838219C1EBB2CF8000F39E9 /* BarApp */ = {
+			isa = PBXGroup;
+			children = (
+				183821E51EBB527C000F39E9 /* MainViewController.swift */,
+				183821D41EBB2E33000F39E9 /* KYDrawerViewController */,
+				1838219D1EBB2CF8000F39E9 /* AppDelegate.swift */,
+				1838219F1EBB2CF8000F39E9 /* ViewController.swift */,
+				183821D51EBB2EB8000F39E9 /* ACFloatingTextfield.swift */,
+				183821D81EBB2EB8000F39E9 /* SignUpVC.swift */,
+				183821A11EBB2CF8000F39E9 /* Main.storyboard */,
+				183821A71EBB2CF8000F39E9 /* Assets.xcassets */,
+				183821A91EBB2CF8000F39E9 /* LaunchScreen.storyboard */,
+				183821AC1EBB2CF8000F39E9 /* Info.plist */,
+				183821A41EBB2CF8000F39E9 /* BarApp.xcdatamodeld */,
+				183821DD1EBB2F6B000F39E9 /* BarApp-Bridging-Header.h */,
+				18723B2E1EBC6BF900E5EF7B /* DrawerViewController.swift */,
+				18723B301EBC7A3D00E5EF7B /* DrawerCell.swift */,
+				18B9C4491EBC92B300B29937 /* ProfileVC.swift */,
+				18B9C44B1EBC92D100B29937 /* ProfileEditVC.swift */,
+				18B9C44D1EBC92E300B29937 /* ChangePasswordVC.swift */,
+				18B9C44F1EBC9CA400B29937 /* UserManagementVC.swift */,
+				18B9C4511EBC9CB700B29937 /* UserDetailsVC.swift */,
+				18B9C4531EBC9CD400B29937 /* settingsVC.swift */,
+				18B9C4551EBC9CE700B29937 /* EmailManagementVC.swift */,
+				18B9C4571EBC9D2300B29937 /* AddEmailVC.swift */,
+				183E69311EC2E9BD009DD72A /* PurchaseStockVC.swift */,
+				183E69331EC2EDD7009DD72A /* DefaultVC.swift */,
+				183E69351EC32BAD009DD72A /* PurchaseStockCell.swift */,
+			);
+			path = BarApp;
+			sourceTree = "<group>";
+		};
+		183821B41EBB2CF9000F39E9 /* BarAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				183821B51EBB2CF9000F39E9 /* BarAppTests.swift */,
+				183821B71EBB2CF9000F39E9 /* Info.plist */,
+			);
+			path = BarAppTests;
+			sourceTree = "<group>";
+		};
+		183821BF1EBB2CF9000F39E9 /* BarAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				183821C01EBB2CF9000F39E9 /* BarAppUITests.swift */,
+				183821C21EBB2CF9000F39E9 /* Info.plist */,
+			);
+			path = BarAppUITests;
+			sourceTree = "<group>";
+		};
+		183821D41EBB2E33000F39E9 /* KYDrawerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				183821CF1EBB2E28000F39E9 /* KYEmbedDrawerControllerSegue.swift */,
+				183821D01EBB2E28000F39E9 /* KYEmbedMainControllerSegue.swift */,
+				183821CE1EBB2E28000F39E9 /* KYDrawerController.swift */,
+			);
+			name = KYDrawerViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183821991EBB2CF7000F39E9 /* BarApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183821C51EBB2CF9000F39E9 /* Build configuration list for PBXNativeTarget "BarApp" */;
+			buildPhases = (
+				183821961EBB2CF7000F39E9 /* Sources */,
+				183821971EBB2CF7000F39E9 /* Frameworks */,
+				183821981EBB2CF7000F39E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarApp;
+			productName = BarApp;
+			productReference = 1838219A1EBB2CF8000F39E9 /* BarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		183821B01EBB2CF9000F39E9 /* BarAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183821C81EBB2CF9000F39E9 /* Build configuration list for PBXNativeTarget "BarAppTests" */;
+			buildPhases = (
+				183821AD1EBB2CF9000F39E9 /* Sources */,
+				183821AE1EBB2CF9000F39E9 /* Frameworks */,
+				183821AF1EBB2CF9000F39E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183821B31EBB2CF9000F39E9 /* PBXTargetDependency */,
+			);
+			name = BarAppTests;
+			productName = BarAppTests;
+			productReference = 183821B11EBB2CF9000F39E9 /* BarAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		183821BB1EBB2CF9000F39E9 /* BarAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183821CB1EBB2CF9000F39E9 /* Build configuration list for PBXNativeTarget "BarAppUITests" */;
+			buildPhases = (
+				183821B81EBB2CF9000F39E9 /* Sources */,
+				183821B91EBB2CF9000F39E9 /* Frameworks */,
+				183821BA1EBB2CF9000F39E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183821BE1EBB2CF9000F39E9 /* PBXTargetDependency */,
+			);
+			name = BarAppUITests;
+			productName = BarAppUITests;
+			productReference = 183821BC1EBB2CF9000F39E9 /* BarAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183821921EBB2CF7000F39E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = KyrosTechnologies;
+				TargetAttributes = {
+					183821991EBB2CF7000F39E9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8VHGJQR39Z;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					183821B01EBB2CF9000F39E9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8VHGJQR39Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 183821991EBB2CF7000F39E9;
+					};
+					183821BB1EBB2CF9000F39E9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8VHGJQR39Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 183821991EBB2CF7000F39E9;
+					};
+				};
+			};
+			buildConfigurationList = 183821951EBB2CF7000F39E9 /* Build configuration list for PBXProject "BarApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 183821911EBB2CF6000F39E9;
+			productRefGroup = 1838219B1EBB2CF8000F39E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183821991EBB2CF7000F39E9 /* BarApp */,
+				183821B01EBB2CF9000F39E9 /* BarAppTests */,
+				183821BB1EBB2CF9000F39E9 /* BarAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183821981EBB2CF7000F39E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183821AB1EBB2CF8000F39E9 /* LaunchScreen.storyboard in Resources */,
+				183821A81EBB2CF8000F39E9 /* Assets.xcassets in Resources */,
+				183821A31EBB2CF8000F39E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183821AF1EBB2CF9000F39E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183821BA1EBB2CF9000F39E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183821961EBB2CF7000F39E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B9C44A1EBC92B400B29937 /* ProfileVC.swift in Sources */,
+				183821D21EBB2E28000F39E9 /* KYEmbedDrawerControllerSegue.swift in Sources */,
+				183821D11EBB2E28000F39E9 /* KYDrawerController.swift in Sources */,
+				183E69341EC2EDD7009DD72A /* DefaultVC.swift in Sources */,
+				183821E71EBB527C000F39E9 /* MainViewController.swift in Sources */,
+				18B9C4541EBC9CD400B29937 /* settingsVC.swift in Sources */,
+				183821D31EBB2E28000F39E9 /* KYEmbedMainControllerSegue.swift in Sources */,
+				18B9C44C1EBC92D100B29937 /* ProfileEditVC.swift in Sources */,
+				183821A61EBB2CF8000F39E9 /* BarApp.xcdatamodeld in Sources */,
+				18B9C4561EBC9CE700B29937 /* EmailManagementVC.swift in Sources */,
+				18B9C44E1EBC92E300B29937 /* ChangePasswordVC.swift in Sources */,
+				18723B2F1EBC6BF900E5EF7B /* DrawerViewController.swift in Sources */,
+				18B9C4581EBC9D2300B29937 /* AddEmailVC.swift in Sources */,
+				183E69321EC2E9BD009DD72A /* PurchaseStockVC.swift in Sources */,
+				183821A01EBB2CF8000F39E9 /* ViewController.swift in Sources */,
+				1838219E1EBB2CF8000F39E9 /* AppDelegate.swift in Sources */,
+				18723B311EBC7A3E00E5EF7B /* DrawerCell.swift in Sources */,
+				183E69361EC32BAD009DD72A /* PurchaseStockCell.swift in Sources */,
+				18B9C4521EBC9CB700B29937 /* UserDetailsVC.swift in Sources */,
+				18B9C4501EBC9CA400B29937 /* UserManagementVC.swift in Sources */,
+				183821DC1EBB2EB8000F39E9 /* SignUpVC.swift in Sources */,
+				183821D91EBB2EB8000F39E9 /* ACFloatingTextfield.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183821AD1EBB2CF9000F39E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183821B61EBB2CF9000F39E9 /* BarAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183821B81EBB2CF9000F39E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183821C11EBB2CF9000F39E9 /* BarAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		183821B31EBB2CF9000F39E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183821991EBB2CF7000F39E9 /* BarApp */;
+			targetProxy = 183821B21EBB2CF9000F39E9 /* PBXContainerItemProxy */;
+		};
+		183821BE1EBB2CF9000F39E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183821991EBB2CF7000F39E9 /* BarApp */;
+			targetProxy = 183821BD1EBB2CF9000F39E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		183821A11EBB2CF8000F39E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183821A21EBB2CF8000F39E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		183821A91EBB2CF8000F39E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183821AA1EBB2CF8000F39E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		183821C31EBB2CF9000F39E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		183821C41EBB2CF9000F39E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		183821C61EBB2CF9000F39E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8VHGJQR39Z;
+				INFOPLIST_FILE = BarApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BarApp/BarApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		183821C71EBB2CF9000F39E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8VHGJQR39Z;
+				INFOPLIST_FILE = BarApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BarApp/BarApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		183821C91EBB2CF9000F39E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8VHGJQR39Z;
+				INFOPLIST_FILE = BarAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BarAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarApp.app/BarApp";
+			};
+			name = Debug;
+		};
+		183821CA1EBB2CF9000F39E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8VHGJQR39Z;
+				INFOPLIST_FILE = BarAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BarAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarApp.app/BarApp";
+			};
+			name = Release;
+		};
+		183821CC1EBB2CF9000F39E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8VHGJQR39Z;
+				INFOPLIST_FILE = BarAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BarAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BarApp;
+			};
+			name = Debug;
+		};
+		183821CD1EBB2CF9000F39E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8VHGJQR39Z;
+				INFOPLIST_FILE = BarAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BarAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BarApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183821951EBB2CF7000F39E9 /* Build configuration list for PBXProject "BarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183821C31EBB2CF9000F39E9 /* Debug */,
+				183821C41EBB2CF9000F39E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183821C51EBB2CF9000F39E9 /* Build configuration list for PBXNativeTarget "BarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183821C61EBB2CF9000F39E9 /* Debug */,
+				183821C71EBB2CF9000F39E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183821C81EBB2CF9000F39E9 /* Build configuration list for PBXNativeTarget "BarAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183821C91EBB2CF9000F39E9 /* Debug */,
+				183821CA1EBB2CF9000F39E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183821CB1EBB2CF9000F39E9 /* Build configuration list for PBXNativeTarget "BarAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183821CC1EBB2CF9000F39E9 /* Debug */,
+				183821CD1EBB2CF9000F39E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		183821A41EBB2CF8000F39E9 /* BarApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				183821A51EBB2CF8000F39E9 /* BarApp.xcdatamodel */,
+			);
+			currentVersion = 183821A51EBB2CF8000F39E9 /* BarApp.xcdatamodel */;
+			path = BarApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 183821921EBB2CF7000F39E9 /* Project object */;
+}
