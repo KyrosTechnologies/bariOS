@@ -54,6 +54,10 @@ class DrawerViewController: DefaultVC,UITableViewDelegate,UITableViewDataSource 
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.row == 2{
+            self.performSegue(withIdentifier: "goDistributorList", sender: self)
+            
+        }
         if indexPath.row == 4{
             self.performSegue(withIdentifier: "goProfile", sender: self)
             

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18024C381EC9B6F800752C81 /* DistributorListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18024C371EC9B6F800752C81 /* DistributorListVC.swift */; };
+		18024C3A1EC9BB2100752C81 /* DistributorListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18024C391EC9BB2100752C81 /* DistributorListCell.swift */; };
 		1838219E1EBB2CF8000F39E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838219D1EBB2CF8000F39E9 /* AppDelegate.swift */; };
 		183821A01EBB2CF8000F39E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838219F1EBB2CF8000F39E9 /* ViewController.swift */; };
 		183821A31EBB2CF8000F39E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183821A11EBB2CF8000F39E9 /* Main.storyboard */; };
@@ -54,6 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18024C371EC9B6F800752C81 /* DistributorListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistributorListVC.swift; sourceTree = "<group>"; };
+		18024C391EC9BB2100752C81 /* DistributorListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistributorListCell.swift; sourceTree = "<group>"; };
 		1838219A1EBB2CF8000F39E9 /* BarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1838219D1EBB2CF8000F39E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1838219F1EBB2CF8000F39E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -163,6 +167,8 @@
 				183E69311EC2E9BD009DD72A /* PurchaseStockVC.swift */,
 				183E69331EC2EDD7009DD72A /* DefaultVC.swift */,
 				183E69351EC32BAD009DD72A /* PurchaseStockCell.swift */,
+				18024C371EC9B6F800752C81 /* DistributorListVC.swift */,
+				18024C391EC9BB2100752C81 /* DistributorListCell.swift */,
 			);
 			path = BarApp;
 			sourceTree = "<group>";
@@ -344,6 +350,7 @@
 				183821A61EBB2CF8000F39E9 /* BarApp.xcdatamodeld in Sources */,
 				18B9C4561EBC9CE700B29937 /* EmailManagementVC.swift in Sources */,
 				18B9C44E1EBC92E300B29937 /* ChangePasswordVC.swift in Sources */,
+				18024C381EC9B6F800752C81 /* DistributorListVC.swift in Sources */,
 				18723B2F1EBC6BF900E5EF7B /* DrawerViewController.swift in Sources */,
 				18B9C4581EBC9D2300B29937 /* AddEmailVC.swift in Sources */,
 				183E69321EC2E9BD009DD72A /* PurchaseStockVC.swift in Sources */,
@@ -351,6 +358,7 @@
 				1838219E1EBB2CF8000F39E9 /* AppDelegate.swift in Sources */,
 				18723B311EBC7A3E00E5EF7B /* DrawerCell.swift in Sources */,
 				183E69361EC32BAD009DD72A /* PurchaseStockCell.swift in Sources */,
+				18024C3A1EC9BB2100752C81 /* DistributorListCell.swift in Sources */,
 				18B9C4521EBC9CB700B29937 /* UserDetailsVC.swift in Sources */,
 				18B9C4501EBC9CA400B29937 /* UserManagementVC.swift in Sources */,
 				183821DC1EBB2EB8000F39E9 /* SignUpVC.swift in Sources */,

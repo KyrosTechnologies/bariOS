@@ -46,12 +46,12 @@
                   moduleName = "BarApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Apple/Documents/BarApp/BarApp/KYDrawerController.swift"
-                  timestampString = "516353939.571199"
+                  timestampString = "516538235.280351"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "287"
                   endingLineNumber = "287"
-                  offsetFromSymbolStart = "3447">
+                  offsetFromSymbolStart = "4444">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -61,12 +61,12 @@
                   moduleName = "BarApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Apple/Documents/BarApp/BarApp/KYDrawerController.swift"
-                  timestampString = "516353939.573646"
+                  timestampString = "516538235.282767"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "287"
                   endingLineNumber = "287"
-                  offsetFromSymbolStart = "3569">
+                  offsetFromSymbolStart = "4548">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -126,12 +126,12 @@
                   moduleName = "BarApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Apple/Documents/BarApp/BarApp/KYDrawerController.swift"
-                  timestampString = "516353939.587348"
+                  timestampString = "516538235.297856"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "290"
                   endingLineNumber = "290"
-                  offsetFromSymbolStart = "3855">
+                  offsetFromSymbolStart = "4892">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -141,12 +141,12 @@
                   moduleName = "BarApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Apple/Documents/BarApp/BarApp/KYDrawerController.swift"
-                  timestampString = "516353939.589315"
+                  timestampString = "516538235.30018"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "290"
                   endingLineNumber = "290"
-                  offsetFromSymbolStart = "3986">
+                  offsetFromSymbolStart = "4996">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -302,11 +302,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BarApp/DrawerViewController.swift"
-            timestampString = "516268930.178583"
+            timestampString = "516536481.401117"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116">
+            startingLineNumber = "120"
+            endingLineNumber = "120">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -316,11 +316,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BarApp/DrawerViewController.swift"
-            timestampString = "516268930.178583"
+            timestampString = "516536481.401117"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102">
+            startingLineNumber = "106"
+            endingLineNumber = "106">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
