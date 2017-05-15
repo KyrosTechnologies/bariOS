@@ -19,13 +19,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         let navigationBarAppearace = UINavigationBar.appearance()
         
-        navigationBarAppearace.tintColor = UIColor(colorLiteralRed: 33/255.0, green: 21/255.0, blue: 14/255.0, alpha: 1.0)
-        navigationBarAppearace.barTintColor = UIColor(colorLiteralRed: 33/255.0, green: 21/255.0, blue: 14/255.0, alpha: 1.0)
+        navigationBarAppearace.tintColor = UIColor(colorLiteralRed: 55/255.0, green: 37/255.0, blue: 37/255.0, alpha: 1.0)
+        navigationBarAppearace.barTintColor = UIColor(colorLiteralRed: 55/255.0, green: 37/255.0, blue: 37/255.0, alpha: 1.0)
         navigationBarAppearace.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white]
         navigationBarAppearace.isTranslucent=false
         navigationBarAppearace.tintColor = UIColor.white
 
-        
+        let labelAppearance=UILabel.appearance()
+        labelAppearance.textColor=UIColor.white //UIColor(colorLiteralRed: 255/255.0, green: 212/255.0, blue: 212/255.0, alpha: 1.0)
+
 //        let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
 //        let mainViewController = mainStoryboard.instantiateViewController(withIdentifier: "MainController") as! MainViewController
 //        let drawerViewController = mainStoryboard.instantiateViewController(withIdentifier: "drawerViewController") as! DrawerViewController

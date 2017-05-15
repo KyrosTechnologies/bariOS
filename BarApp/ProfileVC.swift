@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProfileVC: UIViewController {
+class ProfileVC: DefaultVC {
 
     @IBOutlet weak var editProfileView: UIView!
     @IBOutlet weak var changePasswordView: UIView!

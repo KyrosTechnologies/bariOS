@@ -9,7 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController,UITextFieldDelegate {
-
+    
+    @IBOutlet weak var label: UILabel!
     @IBOutlet weak var btnSignIn: UIButton!
     @IBOutlet weak var txtUserEmailAddress: ACFloatingTextfield!
     @IBOutlet weak var txtUserPassword: ACFloatingTextfield!
@@ -18,22 +19,30 @@ class ViewController: UIViewController,UITextFieldDelegate {
         
         
         self.btnSignIn.layer.borderColor=UIColor.white.cgColor
-        self.btnSignIn.layer.borderWidth=1
-//        txtUserEmailAddress.selectedPlaceHolderColor=UIColor(colorLiteralRed: 161/255.0, green: 161/255.0, blue: 161/255.0, alpha: 1.0)
-//        txtUserPassword.selectedPlaceHolderColor=UIColor(colorLiteralRed: 161/255.0, green: 161/255.0, blue: 161/255.0, alpha: 1.0)
-//        
-//        txtUserEmailAddress.placeHolderColor=UIColor.white
-//        txtUserPassword.placeHolderColor=UIColor.white
-//        
-//        txtUserEmailAddress.errorLineColor=UIColor.white
-//        txtUserPassword.errorLineColor=UIColor.white
+        self.btnSignIn.layer.borderWidth=0.5
         
-//        txtUserEmailAddress.btmLineSelectionColor=UIColor(colorLiteralRed: 161/255.0, green: 161/255.0, blue: 161/255.0, alpha: 1.0)
-//        txtUserPassword.btmLineSelectionColor=UIColor(colorLiteralRed: 161/255.0, green: 161/255.0, blue: 161/255.0, alpha: 1.0)
-
+        label.alpha=0.0
+        
+        UIView.animate(withDuration: 1.0, animations: {
+            self.label.alpha=1.0;
+        }) { (true) in
+            
+        };
+        //        txtUserEmailAddress.selectedPlaceHolderColor=UIColor(colorLiteralRed: 161/255.0, green: 161/255.0, blue: 161/255.0, alpha: 1.0)
+        //        txtUserPassword.selectedPlaceHolderColor=UIColor(colorLiteralRed: 161/255.0, green: 161/255.0, blue: 161/255.0, alpha: 1.0)
+        //
+        //        txtUserEmailAddress.placeHolderColor=UIColor.white
+        //        txtUserPassword.placeHolderColor=UIColor.white
+        //
+        //        txtUserEmailAddress.errorLineColor=UIColor.white
+        //        txtUserPassword.errorLineColor=UIColor.white
+        
+        //        txtUserEmailAddress.btmLineSelectionColor=UIColor(colorLiteralRed: 161/255.0, green: 161/255.0, blue: 161/255.0, alpha: 1.0)
+        //        txtUserPassword.btmLineSelectionColor=UIColor(colorLiteralRed: 161/255.0, green: 161/255.0, blue: 161/255.0, alpha: 1.0)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -58,11 +67,16 @@ class ViewController: UIViewController,UITextFieldDelegate {
          */
         
         UIApplication.shared.keyWindow?.rootViewController = drawerController;
-
-
+        
+        
     }
-
+    
     @IBAction func btnSignIn(_ sender: AnyObject) {
+        UIView.animate(withDuration: 1.0, animations: {
+            self.btnSignIn.layer.borderWidth=1.0
+        }) { (true) in
+            
+        };
         self.login()
     }
 }

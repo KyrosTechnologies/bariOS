@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ChangePasswordVC: UIViewController {
+class ChangePasswordVC: DefaultVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()

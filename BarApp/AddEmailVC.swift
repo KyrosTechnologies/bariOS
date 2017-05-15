@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AddEmailVC: UIViewController {
+class AddEmailVC: DefaultVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()

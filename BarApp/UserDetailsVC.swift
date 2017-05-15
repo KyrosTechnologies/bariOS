@@ -8,7 +8,7 @@
 
 import UIKit
 
-class UserDetailsVC: UIViewController {
+class UserDetailsVC: DefaultVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()

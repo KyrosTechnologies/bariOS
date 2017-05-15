@@ -8,12 +8,14 @@
 
 import UIKit
 
-class settingsVC: UIViewController {
+class settingsVC: DefaultVC {
 
     @IBOutlet weak var userManagementView: UIView!
     @IBOutlet weak var emailManagementView: UIView!
+    @IBOutlet weak var contactView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         let tap = UITapGestureRecognizer(target:self ,action:#selector(settingsVC.userMgmtTapped))
         tap.numberOfTapsRequired=1
         tap.numberOfTouchesRequired=1
@@ -23,6 +25,12 @@ class settingsVC: UIViewController {
         tap1.numberOfTapsRequired=1
         tap1.numberOfTouchesRequired=1
         emailManagementView.addGestureRecognizer(tap1)
+        
+        userManagementView.layer.cornerRadius=3.0
+        emailManagementView.layer.cornerRadius=3.0
+        contactView.layer.cornerRadius=3.0
+
+//        userManagementView.backgroundColor = UIColor()
         
         
         // Do any additional setup after loading the view.

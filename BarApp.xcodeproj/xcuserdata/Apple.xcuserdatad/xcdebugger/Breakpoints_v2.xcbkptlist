@@ -46,12 +46,12 @@
                   moduleName = "BarApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Apple/Documents/BarApp/BarApp/KYDrawerController.swift"
-                  timestampString = "516268933.966282"
+                  timestampString = "516353939.571199"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "287"
                   endingLineNumber = "287"
-                  offsetFromSymbolStart = "4444">
+                  offsetFromSymbolStart = "3447">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -61,12 +61,12 @@
                   moduleName = "BarApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Apple/Documents/BarApp/BarApp/KYDrawerController.swift"
-                  timestampString = "516268933.968511"
+                  timestampString = "516353939.573646"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "287"
                   endingLineNumber = "287"
-                  offsetFromSymbolStart = "4548">
+                  offsetFromSymbolStart = "3569">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -126,12 +126,12 @@
                   moduleName = "BarApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Apple/Documents/BarApp/BarApp/KYDrawerController.swift"
-                  timestampString = "516268933.979603"
+                  timestampString = "516353939.587348"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "290"
                   endingLineNumber = "290"
-                  offsetFromSymbolStart = "4892">
+                  offsetFromSymbolStart = "3855">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -141,12 +141,12 @@
                   moduleName = "BarApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Apple/Documents/BarApp/BarApp/KYDrawerController.swift"
-                  timestampString = "516268933.98152"
+                  timestampString = "516353939.589315"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "290"
                   endingLineNumber = "290"
-                  offsetFromSymbolStart = "4996">
+                  offsetFromSymbolStart = "3986">
                </Location>
             </Locations>
          </BreakpointContent>
