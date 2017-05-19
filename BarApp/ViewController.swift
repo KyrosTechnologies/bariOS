@@ -29,7 +29,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
         }) { (true) in
             
         };
-                // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func didReceiveMemoryWarning() {
@@ -58,7 +58,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
     }
     
     @IBAction func btnSignIn(_ sender: AnyObject) {
-
+        
         let reach = Reachability()
         if txtUserEmailAddress.text == "" || txtUserPassword.text == ""
         {
@@ -72,7 +72,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
             let alert:UIAlertController=UIAlertController(title: nil, message: "No internet connection", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: nil))
             self.present(alert, animated: true, completion: nil)
-
+            
             
         }else{
             let parameters = ["useremail": txtUserEmailAddress.text, "password": txtUserPassword.text] as! Dictionary<String, String>
@@ -125,7 +125,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
                             defaults.set(json["userList.userofteninventory"], forKey: "userofteninventory")
                             defaults.set(json["userList.uservenuename"], forKey: "uservenuename")
                             defaults.set(json["userList.userprofileid"], forKey: "userprofileid")
-
+                            
                             DispatchQueue.main.async {
                                 self.login()
                             }
@@ -138,7 +138,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
                             }
                             
                         }
-                    
+                        
                     }
                     
                 } catch let error {
@@ -146,27 +146,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
                 }
             })
             task.resume()
-        
+            
         }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-//        UIView.animate(withDuration: 1.0, animations: {
-//            self.btnSignIn.layer.borderWidth=1.0
-//        }) { (true) in
-//            
-//        };
-//        self.login()
-    }
-    
-        
-        
 }
-
+}
