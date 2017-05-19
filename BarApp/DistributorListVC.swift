@@ -29,8 +29,21 @@ class DistributorListVC: DefaultVC,UITableViewDataSource,UITableViewDelegate{
         cell.imgView.image=UIImage(named:"dist2")
         cell.distributorName.text="Distributor Name"
         
-        cell.imgView.layer.cornerRadius = 35.0
-//        cell.imgView.layer.
+        cell.outerview.clipsToBounds = false
+        cell.outerview.layer.shadowColor = UIColor.black.cgColor
+        cell.outerview.layer.shadowOpacity = 1
+        cell.outerview.layer.shadowOffset = CGSize.zero
+        cell.outerview.layer.shadowRadius = 30
+        cell.outerview.layer.shadowPath = UIBezierPath(roundedRect: cell.outerview.bounds, cornerRadius: 30).cgPath
+        
+        
+        cell.imgView.layer.cornerRadius = 30
+        cell.imgView.clipsToBounds = true
+        //        cell.imgView.layer.borderWidth=0.5
+        //        cell.imgView.layer.borderColor=UIColor.brown.cgColor
+        
+        
+        //
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -38,6 +51,9 @@ class DistributorListVC: DefaultVC,UITableViewDataSource,UITableViewDelegate{
     }
     
     
+    @IBAction func backButton(_ sender: AnyObject) {
+        self.dismiss(animated:true ,completion:nil)
+    }
     
     /*
      // MARK: - Navigation

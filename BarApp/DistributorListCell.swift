@@ -10,6 +10,7 @@ import UIKit
 
 class DistributorListCell: UITableViewCell {
 
+    @IBOutlet weak var outerview: UIView!
     @IBOutlet weak var imgView: UIImageView!
     @IBOutlet weak var distributorName: UILabel!
     override func awakeFromNib() {

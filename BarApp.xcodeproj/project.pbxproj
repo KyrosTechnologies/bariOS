@@ -23,9 +23,32 @@
 		183821D91EBB2EB8000F39E9 /* ACFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183821D51EBB2EB8000F39E9 /* ACFloatingTextfield.swift */; };
 		183821DC1EBB2EB8000F39E9 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183821D81EBB2EB8000F39E9 /* SignUpVC.swift */; };
 		183821E71EBB527C000F39E9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183821E51EBB527C000F39E9 /* MainViewController.swift */; };
+		183C29BF1ECEC437008DCE89 /* ValueOnHandVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C29BD1ECEC436008DCE89 /* ValueOnHandVC.swift */; };
+		183C29C01ECEC437008DCE89 /* ValueonhandVCcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C29BE1ECEC436008DCE89 /* ValueonhandVCcell.swift */; };
+		183C29C31ECEC446008DCE89 /* ParListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C29C11ECEC446008DCE89 /* ParListVC.swift */; };
+		183C29C41ECEC446008DCE89 /* ParListVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C29C21ECEC446008DCE89 /* ParListVCCell.swift */; };
+		183C29C71ECED614008DCE89 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C29C61ECED614008DCE89 /* Reachability.swift */; };
 		183E69321EC2E9BD009DD72A /* PurchaseStockVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E69311EC2E9BD009DD72A /* PurchaseStockVC.swift */; };
 		183E69341EC2EDD7009DD72A /* DefaultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E69331EC2EDD7009DD72A /* DefaultVC.swift */; };
 		183E69361EC32BAD009DD72A /* PurchaseStockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183E69351EC32BAD009DD72A /* PurchaseStockCell.swift */; };
+		18483F721ECACDD40041C48A /* VenueSummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18483F711ECACDD40041C48A /* VenueSummaryVC.swift */; };
+		18483F741ECAD3A40041C48A /* VenueSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18483F731ECAD3A40041C48A /* VenueSummaryCell.swift */; };
+		18483F761ECAD6FC0041C48A /* BottleDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18483F751ECAD6FC0041C48A /* BottleDetailsVC.swift */; };
+		18483F791ECB02E60041C48A /* AddBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18483F781ECB02E60041C48A /* AddBarVC.swift */; };
+		18483F7B1ECB03040041C48A /* AddBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18483F7A1ECB03040041C48A /* AddBarCell.swift */; };
+		18483F7E1ECB031F0041C48A /* AddsectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18483F7D1ECB031F0041C48A /* AddsectionCell.swift */; };
+		18483F801ECB033F0041C48A /* AddSectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18483F7F1ECB033F0041C48A /* AddSectionVC.swift */; };
+		18483F821ECB03990041C48A /* AddBottlesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18483F811ECB03990041C48A /* AddBottlesVC.swift */; };
+		18483F851ECB03DB0041C48A /* AddBottlesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18483F841ECB03DB0041C48A /* AddBottlesCell.swift */; };
+		18483F881ECB04640041C48A /* LiquorSliderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18483F871ECB04640041C48A /* LiquorSliderVC.swift */; };
+		18483F8A1ECB2DCA0041C48A /* MyInventoryTypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18483F891ECB2DCA0041C48A /* MyInventoryTypeVC.swift */; };
+		186320EC1ECC2D01003A5AA5 /* InventoryTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186320EB1ECC2D01003A5AA5 /* InventoryTypeCell.swift */; };
+		186320EE1ECC5B0C003A5AA5 /* AddNewBottlesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186320ED1ECC5B0C003A5AA5 /* AddNewBottlesVC.swift */; };
+		186320F11ECC5B38003A5AA5 /* AddCustomBottleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186320F01ECC5B38003A5AA5 /* AddCustomBottleVC.swift */; };
+		186320F31ECC60AD003A5AA5 /* TakePhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186320F21ECC60AC003A5AA5 /* TakePhotoVC.swift */; };
+		186320F51ECC86EA003A5AA5 /* CustomKEGVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186320F41ECC86EA003A5AA5 /* CustomKEGVC.swift */; };
+		186320F71ECC8706003A5AA5 /* CustomBottleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186320F61ECC8706003A5AA5 /* CustomBottleVC.swift */; };
+		186320F91ECC89A8003A5AA5 /* MinMaxSelectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186320F81ECC89A8003A5AA5 /* MinMaxSelectVC.swift */; };
 		18723B2F1EBC6BF900E5EF7B /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18723B2E1EBC6BF900E5EF7B /* DrawerViewController.swift */; };
 		18723B311EBC7A3E00E5EF7B /* DrawerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18723B301EBC7A3D00E5EF7B /* DrawerCell.swift */; };
 		18B9C44A1EBC92B400B29937 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B9C4491EBC92B300B29937 /* ProfileVC.swift */; };
@@ -79,9 +102,32 @@
 		183821D81EBB2EB8000F39E9 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		183821DD1EBB2F6B000F39E9 /* BarApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BarApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		183821E51EBB527C000F39E9 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		183C29BD1ECEC436008DCE89 /* ValueOnHandVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueOnHandVC.swift; sourceTree = "<group>"; };
+		183C29BE1ECEC436008DCE89 /* ValueonhandVCcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueonhandVCcell.swift; sourceTree = "<group>"; };
+		183C29C11ECEC446008DCE89 /* ParListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParListVC.swift; sourceTree = "<group>"; };
+		183C29C21ECEC446008DCE89 /* ParListVCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParListVCCell.swift; sourceTree = "<group>"; };
+		183C29C61ECED614008DCE89 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		183E69311EC2E9BD009DD72A /* PurchaseStockVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseStockVC.swift; sourceTree = "<group>"; };
 		183E69331EC2EDD7009DD72A /* DefaultVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultVC.swift; sourceTree = "<group>"; };
 		183E69351EC32BAD009DD72A /* PurchaseStockCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseStockCell.swift; sourceTree = "<group>"; };
+		18483F711ECACDD40041C48A /* VenueSummaryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueSummaryVC.swift; sourceTree = "<group>"; };
+		18483F731ECAD3A40041C48A /* VenueSummaryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueSummaryCell.swift; sourceTree = "<group>"; };
+		18483F751ECAD6FC0041C48A /* BottleDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottleDetailsVC.swift; sourceTree = "<group>"; };
+		18483F781ECB02E60041C48A /* AddBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBarVC.swift; sourceTree = "<group>"; };
+		18483F7A1ECB03040041C48A /* AddBarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBarCell.swift; sourceTree = "<group>"; };
+		18483F7D1ECB031F0041C48A /* AddsectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddsectionCell.swift; sourceTree = "<group>"; };
+		18483F7F1ECB033F0041C48A /* AddSectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSectionVC.swift; sourceTree = "<group>"; };
+		18483F811ECB03990041C48A /* AddBottlesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBottlesVC.swift; sourceTree = "<group>"; };
+		18483F841ECB03DB0041C48A /* AddBottlesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBottlesCell.swift; sourceTree = "<group>"; };
+		18483F871ECB04640041C48A /* LiquorSliderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiquorSliderVC.swift; sourceTree = "<group>"; };
+		18483F891ECB2DCA0041C48A /* MyInventoryTypeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInventoryTypeVC.swift; sourceTree = "<group>"; };
+		186320EB1ECC2D01003A5AA5 /* InventoryTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryTypeCell.swift; sourceTree = "<group>"; };
+		186320ED1ECC5B0C003A5AA5 /* AddNewBottlesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewBottlesVC.swift; sourceTree = "<group>"; };
+		186320F01ECC5B38003A5AA5 /* AddCustomBottleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCustomBottleVC.swift; sourceTree = "<group>"; };
+		186320F21ECC60AC003A5AA5 /* TakePhotoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakePhotoVC.swift; sourceTree = "<group>"; };
+		186320F41ECC86EA003A5AA5 /* CustomKEGVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKEGVC.swift; sourceTree = "<group>"; };
+		186320F61ECC8706003A5AA5 /* CustomBottleVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBottleVC.swift; sourceTree = "<group>"; };
+		186320F81ECC89A8003A5AA5 /* MinMaxSelectVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinMaxSelectVC.swift; sourceTree = "<group>"; };
 		18723B2E1EBC6BF900E5EF7B /* DrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
 		18723B301EBC7A3D00E5EF7B /* DrawerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerCell.swift; sourceTree = "<group>"; };
 		18B9C4491EBC92B300B29937 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
@@ -142,7 +188,14 @@
 		1838219C1EBB2CF8000F39E9 /* BarApp */ = {
 			isa = PBXGroup;
 			children = (
-				183821E51EBB527C000F39E9 /* MainViewController.swift */,
+				183C29C51ECEC7F2008DCE89 /* Constant */,
+				183C29BC1ECEC407008DCE89 /* ValueOnhand */,
+				183C29BB1ECEC3FB008DCE89 /* ParList */,
+				186320EF1ECC5B1F003A5AA5 /* Add Custom BOttles */,
+				18483F861ECB04480041C48A /* Liquor Slider */,
+				18483F7C1ECB03090041C48A /* AddSection */,
+				18483F771ECB02CE0041C48A /* Add Bar */,
+				18483F831ECB03A50041C48A /* Add Bottles */,
 				183821D41EBB2E33000F39E9 /* KYDrawerViewController */,
 				1838219D1EBB2CF8000F39E9 /* AppDelegate.swift */,
 				1838219F1EBB2CF8000F39E9 /* ViewController.swift */,
@@ -156,6 +209,7 @@
 				183821DD1EBB2F6B000F39E9 /* BarApp-Bridging-Header.h */,
 				18723B2E1EBC6BF900E5EF7B /* DrawerViewController.swift */,
 				18723B301EBC7A3D00E5EF7B /* DrawerCell.swift */,
+				183821E51EBB527C000F39E9 /* MainViewController.swift */,
 				18B9C4491EBC92B300B29937 /* ProfileVC.swift */,
 				18B9C44B1EBC92D100B29937 /* ProfileEditVC.swift */,
 				18B9C44D1EBC92E300B29937 /* ChangePasswordVC.swift */,
@@ -169,6 +223,9 @@
 				183E69351EC32BAD009DD72A /* PurchaseStockCell.swift */,
 				18024C371EC9B6F800752C81 /* DistributorListVC.swift */,
 				18024C391EC9BB2100752C81 /* DistributorListCell.swift */,
+				18483F711ECACDD40041C48A /* VenueSummaryVC.swift */,
+				18483F731ECAD3A40041C48A /* VenueSummaryCell.swift */,
+				18483F751ECAD6FC0041C48A /* BottleDetailsVC.swift */,
 			);
 			path = BarApp;
 			sourceTree = "<group>";
@@ -199,6 +256,82 @@
 				183821CE1EBB2E28000F39E9 /* KYDrawerController.swift */,
 			);
 			name = KYDrawerViewController;
+			sourceTree = "<group>";
+		};
+		183C29BB1ECEC3FB008DCE89 /* ParList */ = {
+			isa = PBXGroup;
+			children = (
+				183C29C11ECEC446008DCE89 /* ParListVC.swift */,
+				183C29C21ECEC446008DCE89 /* ParListVCCell.swift */,
+			);
+			name = ParList;
+			sourceTree = "<group>";
+		};
+		183C29BC1ECEC407008DCE89 /* ValueOnhand */ = {
+			isa = PBXGroup;
+			children = (
+				183C29BD1ECEC436008DCE89 /* ValueOnHandVC.swift */,
+				183C29BE1ECEC436008DCE89 /* ValueonhandVCcell.swift */,
+			);
+			name = ValueOnhand;
+			sourceTree = "<group>";
+		};
+		183C29C51ECEC7F2008DCE89 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				183C29C61ECED614008DCE89 /* Reachability.swift */,
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+		18483F771ECB02CE0041C48A /* Add Bar */ = {
+			isa = PBXGroup;
+			children = (
+				18483F781ECB02E60041C48A /* AddBarVC.swift */,
+				18483F7A1ECB03040041C48A /* AddBarCell.swift */,
+			);
+			name = "Add Bar";
+			sourceTree = "<group>";
+		};
+		18483F7C1ECB03090041C48A /* AddSection */ = {
+			isa = PBXGroup;
+			children = (
+				18483F7D1ECB031F0041C48A /* AddsectionCell.swift */,
+				18483F7F1ECB033F0041C48A /* AddSectionVC.swift */,
+			);
+			name = AddSection;
+			sourceTree = "<group>";
+		};
+		18483F831ECB03A50041C48A /* Add Bottles */ = {
+			isa = PBXGroup;
+			children = (
+				18483F811ECB03990041C48A /* AddBottlesVC.swift */,
+				18483F841ECB03DB0041C48A /* AddBottlesCell.swift */,
+				186320ED1ECC5B0C003A5AA5 /* AddNewBottlesVC.swift */,
+			);
+			name = "Add Bottles";
+			sourceTree = "<group>";
+		};
+		18483F861ECB04480041C48A /* Liquor Slider */ = {
+			isa = PBXGroup;
+			children = (
+				18483F871ECB04640041C48A /* LiquorSliderVC.swift */,
+				18483F891ECB2DCA0041C48A /* MyInventoryTypeVC.swift */,
+				186320EB1ECC2D01003A5AA5 /* InventoryTypeCell.swift */,
+			);
+			name = "Liquor Slider";
+			sourceTree = "<group>";
+		};
+		186320EF1ECC5B1F003A5AA5 /* Add Custom BOttles */ = {
+			isa = PBXGroup;
+			children = (
+				186320F01ECC5B38003A5AA5 /* AddCustomBottleVC.swift */,
+				186320F21ECC60AC003A5AA5 /* TakePhotoVC.swift */,
+				186320F41ECC86EA003A5AA5 /* CustomKEGVC.swift */,
+				186320F61ECC8706003A5AA5 /* CustomBottleVC.swift */,
+				186320F81ECC89A8003A5AA5 /* MinMaxSelectVC.swift */,
+			);
+			name = "Add Custom BOttles";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,29 +472,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18483F791ECB02E60041C48A /* AddBarVC.swift in Sources */,
 				18B9C44A1EBC92B400B29937 /* ProfileVC.swift in Sources */,
 				183821D21EBB2E28000F39E9 /* KYEmbedDrawerControllerSegue.swift in Sources */,
+				18483F7E1ECB031F0041C48A /* AddsectionCell.swift in Sources */,
 				183821D11EBB2E28000F39E9 /* KYDrawerController.swift in Sources */,
 				183E69341EC2EDD7009DD72A /* DefaultVC.swift in Sources */,
+				18483F8A1ECB2DCA0041C48A /* MyInventoryTypeVC.swift in Sources */,
+				186320F51ECC86EA003A5AA5 /* CustomKEGVC.swift in Sources */,
 				183821E71EBB527C000F39E9 /* MainViewController.swift in Sources */,
+				186320F31ECC60AD003A5AA5 /* TakePhotoVC.swift in Sources */,
 				18B9C4541EBC9CD400B29937 /* settingsVC.swift in Sources */,
+				18483F801ECB033F0041C48A /* AddSectionVC.swift in Sources */,
+				186320F71ECC8706003A5AA5 /* CustomBottleVC.swift in Sources */,
+				186320EE1ECC5B0C003A5AA5 /* AddNewBottlesVC.swift in Sources */,
 				183821D31EBB2E28000F39E9 /* KYEmbedMainControllerSegue.swift in Sources */,
 				18B9C44C1EBC92D100B29937 /* ProfileEditVC.swift in Sources */,
 				183821A61EBB2CF8000F39E9 /* BarApp.xcdatamodeld in Sources */,
+				18483F821ECB03990041C48A /* AddBottlesVC.swift in Sources */,
 				18B9C4561EBC9CE700B29937 /* EmailManagementVC.swift in Sources */,
 				18B9C44E1EBC92E300B29937 /* ChangePasswordVC.swift in Sources */,
+				18483F721ECACDD40041C48A /* VenueSummaryVC.swift in Sources */,
 				18024C381EC9B6F800752C81 /* DistributorListVC.swift in Sources */,
+				186320EC1ECC2D01003A5AA5 /* InventoryTypeCell.swift in Sources */,
+				18483F7B1ECB03040041C48A /* AddBarCell.swift in Sources */,
 				18723B2F1EBC6BF900E5EF7B /* DrawerViewController.swift in Sources */,
 				18B9C4581EBC9D2300B29937 /* AddEmailVC.swift in Sources */,
 				183E69321EC2E9BD009DD72A /* PurchaseStockVC.swift in Sources */,
 				183821A01EBB2CF8000F39E9 /* ViewController.swift in Sources */,
+				183C29C01ECEC437008DCE89 /* ValueonhandVCcell.swift in Sources */,
 				1838219E1EBB2CF8000F39E9 /* AppDelegate.swift in Sources */,
 				18723B311EBC7A3E00E5EF7B /* DrawerCell.swift in Sources */,
+				186320F91ECC89A8003A5AA5 /* MinMaxSelectVC.swift in Sources */,
+				183C29BF1ECEC437008DCE89 /* ValueOnHandVC.swift in Sources */,
 				183E69361EC32BAD009DD72A /* PurchaseStockCell.swift in Sources */,
+				18483F851ECB03DB0041C48A /* AddBottlesCell.swift in Sources */,
+				186320F11ECC5B38003A5AA5 /* AddCustomBottleVC.swift in Sources */,
+				183C29C41ECEC446008DCE89 /* ParListVCCell.swift in Sources */,
 				18024C3A1EC9BB2100752C81 /* DistributorListCell.swift in Sources */,
+				183C29C71ECED614008DCE89 /* Reachability.swift in Sources */,
 				18B9C4521EBC9CB700B29937 /* UserDetailsVC.swift in Sources */,
 				18B9C4501EBC9CA400B29937 /* UserManagementVC.swift in Sources */,
+				18483F761ECAD6FC0041C48A /* BottleDetailsVC.swift in Sources */,
+				183C29C31ECEC446008DCE89 /* ParListVC.swift in Sources */,
 				183821DC1EBB2EB8000F39E9 /* SignUpVC.swift in Sources */,
+				18483F881ECB04640041C48A /* LiquorSliderVC.swift in Sources */,
+				18483F741ECAD3A40041C48A /* VenueSummaryCell.swift in Sources */,
 				183821D91EBB2EB8000F39E9 /* ACFloatingTextfield.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class ViewController: UIViewController,UITextFieldDelegate {
     
     @IBOutlet weak var label: UILabel!
@@ -72,12 +73,30 @@ class ViewController: UIViewController,UITextFieldDelegate {
     }
     
     @IBAction func btnSignIn(_ sender: AnyObject) {
-        UIView.animate(withDuration: 1.0, animations: {
-            self.btnSignIn.layer.borderWidth=1.0
-        }) { (true) in
-            
-        };
-        self.login()
+
+        if txtUserEmailAddress.text == "" || txtUserPassword.text == ""
+        {
+            //Show Alert
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+//        UIView.animate(withDuration: 1.0, animations: {
+//            self.btnSignIn.layer.borderWidth=1.0
+//        }) { (true) in
+//            
+//        };
+//        self.login()
     }
+    
+        
+        
 }
 
