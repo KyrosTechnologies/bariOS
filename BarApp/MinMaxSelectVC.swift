@@ -10,11 +10,12 @@ import UIKit
 
 class MinMaxSelectVC: DefaultVC {
     
+    @IBOutlet weak var rangeSlider: RangeSlider!
     @IBOutlet weak var ImageViewBottle: UIImageView!
     var image:UIImage?
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        rangeSlider.transform = CGAffineTransform(rotationAngle: CGFloat(-M_PI_2))
         self.ImageViewBottle.image=image
         // Do any additional setup after loading the view.
     }

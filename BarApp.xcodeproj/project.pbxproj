@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		18024C381EC9B6F800752C81 /* DistributorListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18024C371EC9B6F800752C81 /* DistributorListVC.swift */; };
 		18024C3A1EC9BB2100752C81 /* DistributorListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18024C391EC9BB2100752C81 /* DistributorListCell.swift */; };
+		1830A8FF1ED56C17003E71F5 /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830A8FE1ED56C17003E71F5 /* RangeSlider.swift */; };
+		1830A9011ED56C25003E71F5 /* RangeSliderFramework in Resources */ = {isa = PBXBuildFile; fileRef = 1830A9001ED56C24003E71F5 /* RangeSliderFramework */; };
 		1838219E1EBB2CF8000F39E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838219D1EBB2CF8000F39E9 /* AppDelegate.swift */; };
 		183821A01EBB2CF8000F39E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1838219F1EBB2CF8000F39E9 /* ViewController.swift */; };
 		183821A31EBB2CF8000F39E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183821A11EBB2CF8000F39E9 /* Main.storyboard */; };
@@ -84,6 +86,8 @@
 /* Begin PBXFileReference section */
 		18024C371EC9B6F800752C81 /* DistributorListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistributorListVC.swift; sourceTree = "<group>"; };
 		18024C391EC9BB2100752C81 /* DistributorListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistributorListCell.swift; sourceTree = "<group>"; };
+		1830A8FE1ED56C17003E71F5 /* RangeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
+		1830A9001ED56C24003E71F5 /* RangeSliderFramework */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RangeSliderFramework; sourceTree = "<group>"; };
 		1838219A1EBB2CF8000F39E9 /* BarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1838219D1EBB2CF8000F39E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1838219F1EBB2CF8000F39E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -205,6 +209,11 @@
 		1838219C1EBB2CF8000F39E9 /* BarApp */ = {
 			isa = PBXGroup;
 			children = (
+				1830A9001ED56C24003E71F5 /* RangeSliderFramework */,
+				1830A8FE1ED56C17003E71F5 /* RangeSlider.swift */,
+				189B82691ED0256500727ED3 /* Settings */,
+				189B82681ED0254D00727ED3 /* Drawer */,
+				189B82671ED0251E00727ED3 /* SignUp And Login */,
 				183C29C51ECEC7F2008DCE89 /* Constant */,
 				183C29BC1ECEC407008DCE89 /* ValueOnhand */,
 				183C29BB1ECEC3FB008DCE89 /* ParList */,
@@ -215,17 +224,13 @@
 				18483F831ECB03A50041C48A /* Add Bottles */,
 				183821D41EBB2E33000F39E9 /* KYDrawerViewController */,
 				1838219D1EBB2CF8000F39E9 /* AppDelegate.swift */,
-				1838219F1EBB2CF8000F39E9 /* ViewController.swift */,
 				183821D51EBB2EB8000F39E9 /* ACFloatingTextfield.swift */,
-				183821D81EBB2EB8000F39E9 /* SignUpVC.swift */,
 				183821A11EBB2CF8000F39E9 /* Main.storyboard */,
 				183821A71EBB2CF8000F39E9 /* Assets.xcassets */,
 				183821A91EBB2CF8000F39E9 /* LaunchScreen.storyboard */,
 				183821AC1EBB2CF8000F39E9 /* Info.plist */,
 				183821A41EBB2CF8000F39E9 /* BarApp.xcdatamodeld */,
 				183821DD1EBB2F6B000F39E9 /* BarApp-Bridging-Header.h */,
-				18723B2E1EBC6BF900E5EF7B /* DrawerViewController.swift */,
-				18723B301EBC7A3D00E5EF7B /* DrawerCell.swift */,
 				183821E51EBB527C000F39E9 /* MainViewController.swift */,
 				18B9C4491EBC92B300B29937 /* ProfileVC.swift */,
 				18B9C44B1EBC92D100B29937 /* ProfileEditVC.swift */,
@@ -349,6 +354,31 @@
 				186320F81ECC89A8003A5AA5 /* MinMaxSelectVC.swift */,
 			);
 			name = "Add Custom BOttles";
+			sourceTree = "<group>";
+		};
+		189B82671ED0251E00727ED3 /* SignUp And Login */ = {
+			isa = PBXGroup;
+			children = (
+				1838219F1EBB2CF8000F39E9 /* ViewController.swift */,
+				183821D81EBB2EB8000F39E9 /* SignUpVC.swift */,
+			);
+			name = "SignUp And Login";
+			sourceTree = "<group>";
+		};
+		189B82681ED0254D00727ED3 /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				18723B2E1EBC6BF900E5EF7B /* DrawerViewController.swift */,
+				18723B301EBC7A3D00E5EF7B /* DrawerCell.swift */,
+			);
+			name = Drawer;
+			sourceTree = "<group>";
+		};
+		189B82691ED0256500727ED3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Settings;
 			sourceTree = "<group>";
 		};
 		20B0FA546FEEC7BE1F865172 /* Pods */ = {
@@ -496,6 +526,7 @@
 			files = (
 				183821AB1EBB2CF8000F39E9 /* LaunchScreen.storyboard in Resources */,
 				183821A81EBB2CF8000F39E9 /* Assets.xcassets in Resources */,
+				1830A9011ED56C25003E71F5 /* RangeSliderFramework in Resources */,
 				183821A31EBB2CF8000F39E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -687,6 +718,7 @@
 				18723B2F1EBC6BF900E5EF7B /* DrawerViewController.swift in Sources */,
 				18B9C4581EBC9D2300B29937 /* AddEmailVC.swift in Sources */,
 				183E69321EC2E9BD009DD72A /* PurchaseStockVC.swift in Sources */,
+				1830A8FF1ED56C17003E71F5 /* RangeSlider.swift in Sources */,
 				183821A01EBB2CF8000F39E9 /* ViewController.swift in Sources */,
 				183C29C01ECEC437008DCE89 /* ValueonhandVCcell.swift in Sources */,
 				1838219E1EBB2CF8000F39E9 /* AppDelegate.swift in Sources */,

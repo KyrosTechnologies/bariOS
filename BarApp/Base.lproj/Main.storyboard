@@ -3603,24 +3603,57 @@
                                 <color key="textColor" red="1" green="0.83137254900000002" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XyQ-JO-ZWT" customClass="RangeSlider" customModule="BarApp" customModuleProvider="target">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="etT-Gr-FN4"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="minimumValue">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lowerValue">
+                                        <real key="value" value="0.25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="upperValue">
+                                        <real key="value" value="0.90000000000000002"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="trackTintColor">
+                                        <color key="value" red="1" green="0.73725490199999999" blue="0.64313725489999995" alpha="0.25816031680000001" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="trackHighlightTintColor">
+                                        <color key="value" red="1" green="0.83137254900000002" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="thumbTintColor">
+                                        <color key="value" red="0.2156862745" green="0.1450980392" blue="0.1450980392" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="9VK-OI-xkT" firstAttribute="leading" secondItem="e4S-vt-73l" secondAttribute="leading" id="0i3-L3-vV5"/>
                             <constraint firstItem="6JM-NS-cEu" firstAttribute="centerX" secondItem="e4S-vt-73l" secondAttribute="centerX" id="25u-5c-AYy"/>
                             <constraint firstItem="BQ6-aw-ixO" firstAttribute="centerY" secondItem="e4S-vt-73l" secondAttribute="centerY" multiplier="1.15" id="3FT-zR-e5x"/>
+                            <constraint firstItem="XyQ-JO-ZWT" firstAttribute="centerX" secondItem="e4S-vt-73l" secondAttribute="centerX" multiplier="0.2" id="3Yk-E7-nBl"/>
                             <constraint firstItem="9VK-OI-xkT" firstAttribute="height" secondItem="e4S-vt-73l" secondAttribute="height" multiplier="1:10" id="B6T-BA-t5y"/>
-                            <constraint firstItem="BQ6-aw-ixO" firstAttribute="height" secondItem="e4S-vt-73l" secondAttribute="height" multiplier="4:5" id="Eij-pK-t4n"/>
+                            <constraint firstItem="BQ6-aw-ixO" firstAttribute="height" secondItem="e4S-vt-73l" secondAttribute="height" multiplier="3.3:5" id="Eij-pK-t4n"/>
+                            <constraint firstItem="BQ6-aw-ixO" firstAttribute="width" secondItem="e4S-vt-73l" secondAttribute="width" multiplier="3:4" id="I7f-eE-UrU"/>
+                            <constraint firstItem="XyQ-JO-ZWT" firstAttribute="width" secondItem="BQ6-aw-ixO" secondAttribute="height" id="Llr-Af-CdL"/>
                             <constraint firstItem="9VK-OI-xkT" firstAttribute="top" secondItem="e4S-vt-73l" secondAttribute="top" id="Mxj-hD-no2"/>
                             <constraint firstAttribute="trailing" secondItem="BQ6-aw-ixO" secondAttribute="trailing" constant="10" id="aGM-4U-xQz"/>
                             <constraint firstItem="6JM-NS-cEu" firstAttribute="top" secondItem="9VK-OI-xkT" secondAttribute="bottom" constant="10" id="cHq-6E-dpO"/>
+                            <constraint firstItem="XyQ-JO-ZWT" firstAttribute="centerY" secondItem="e4S-vt-73l" secondAttribute="centerY" multiplier="1.15" id="gMh-kY-c4R"/>
                             <constraint firstAttribute="trailing" secondItem="9VK-OI-xkT" secondAttribute="trailing" id="lt3-oy-d41"/>
                             <constraint firstItem="6JM-NS-cEu" firstAttribute="width" secondItem="e4S-vt-73l" secondAttribute="width" multiplier="4:5" id="qiI-Gw-SdB"/>
-                            <constraint firstItem="BQ6-aw-ixO" firstAttribute="leading" secondItem="e4S-vt-73l" secondAttribute="leading" constant="10" id="z6w-UT-POt"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="ImageViewBottle" destination="BQ6-aw-ixO" id="9qw-Y5-maB"/>
+                        <outlet property="rangeSlider" destination="XyQ-JO-ZWT" id="mnO-ng-B0a"/>
                         <segue destination="vny-a6-892" kind="presentation" identifier="goCustomBottle" id="yVl-SN-Hwq"/>
                         <segue destination="Dor-gd-lSr" kind="presentation" identifier="goCustomKeg" id="3yG-gX-Thx"/>
                     </connections>
@@ -4639,7 +4672,7 @@
         <image name="venueName" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="nXf-AB-Ylx"/>
+        <segue reference="hFm-Xj-5c5"/>
         <segue reference="X6G-3I-a3x"/>
     </inferredMetricsTieBreakers>
 </document>
